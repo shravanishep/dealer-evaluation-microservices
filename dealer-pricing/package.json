@@ -1,0 +1,21 @@
+{
+  "name": "dealer-pricing",
+  "version": "1.0.0",
+  "description": "Dealer Pricing microservice – returns dealers and pricing for products",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --verbose --forceExit"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
